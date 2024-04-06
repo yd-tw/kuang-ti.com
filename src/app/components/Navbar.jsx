@@ -7,15 +7,15 @@ import MenuOverlay from "./MenuOverlay";
 
 const navLinks = [
   {
-    title: "About",
+    title: "關於",
     path: "#about",
   },
   {
-    title: "Projects",
+    title: "專案",
     path: "#projects",
   },
   {
-    title: "Contact",
+    title: "聯繫",
     path: "#contact",
   },
 ];
@@ -30,7 +30,7 @@ const Navbar = () => {
           href={"/"}
           className="text-2xl md:text-5xl text-white font-semibold"
         >
-          LOGO
+          楊光地
         </Link>
         <div className="mobile-menu block md:hidden">
           {!navbarOpen ? (

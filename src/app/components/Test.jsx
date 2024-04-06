@@ -9,12 +9,12 @@ const TAB_DATA = [
     id: "skills",
     content: (
       <ul className="list-disc pl-2">
-        <li>Arduino程式設計</li>
-        <li>FRC程式設計</li>
-        <li>PID控制器設計</li>
-        <li>AI影像分析</li>
-        <li>競賽程式</li>
-        <li>演算法分析</li>
+        <li>Node.js</li>
+        <li>Express</li>
+        <li>PostgreSQL</li>
+        <li>Sequelize</li>
+        <li>JavaScript</li>
+        <li>React</li>
       </ul>
     ),
   },
@@ -23,8 +23,8 @@ const TAB_DATA = [
     id: "education",
     content: (
       <ul className="list-disc pl-2">
-        <li>漳和國中</li>
-        <li>中和高中</li>
+        <li>Fullstack Academy of Code</li>
+        <li>University of California, Santa Cruz</li>
       </ul>
     ),
   },
@@ -33,8 +33,8 @@ const TAB_DATA = [
     id: "certifications",
     content: (
       <ul className="list-disc pl-2">
-        <li>FRC</li>
-        <li>程式貓</li>
+        <li>AWS Cloud Practitioner</li>
+        <li>Google Professional Cloud Developer</li>
       </ul>
     ),
   },
@@ -55,14 +55,14 @@ const AboutSection = () => {
       <div className="md:grid md:grid-cols-2 gap-8 items-center py-8 px-4 xl:gap-16 sm:py-16 xl:px-16">
         <Image src="/images/about-image.png" width={500} height={500} />
         <div className="mt-4 md:mt-0 text-left flex flex-col h-full">
-          <h2 className="text-4xl font-bold text-white mb-4">關於我</h2>
+          <h2 className="text-4xl font-bold text-white mb-4">About Me</h2>
           <p className="text-base lg:text-lg">
-            我是一名全端 Web 開發人員，熱衷於創造
-            互動式和響應式 Web 應用程式。 我有經驗
-            使用 JavaScript、React、Redux、Node.js、Express、PostgreSQL、
-            Sequelize、HTML、CSS 和 Git。 我學得很快，而且總是
-            希望擴展我的知識和技能。 我是一個團隊合作者並且
-            我很高興能與其他人一起創建令人驚嘆的應用程式。
+            I am a full stack web developer with a passion for creating
+            interactive and responsive web applications. I have experience
+            working with JavaScript, React, Redux, Node.js, Express, PostgreSQL,
+            Sequelize, HTML, CSS, and Git. I am a quick learner and I am always
+            looking to expand my knowledge and skill set. I am a team player and
+            I am excited to work with others to create amazing applications.
           </p>
           <div className="flex flex-row justify-start mt-8">
             <TabButton
@@ -70,21 +70,21 @@ const AboutSection = () => {
               active={tab === "skills"}
             >
               {" "}
-              技能{" "}
+              Skills{" "}
             </TabButton>
             <TabButton
               selectTab={() => handleTabChange("education")}
               active={tab === "education"}
             >
               {" "}
-              教育{" "}
+              Education{" "}
             </TabButton>
             <TabButton
               selectTab={() => handleTabChange("certifications")}
               active={tab === "certifications"}
             >
               {" "}
-              證書{" "}
+              Certifications{" "}
             </TabButton>
           </div>
           <div className="mt-8">

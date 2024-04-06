@@ -7,55 +7,55 @@ import { motion, useInView } from "framer-motion";
 const projectsData = [
   {
     id: 1,
-    title: "React Portfolio Website",
-    description: "Project 1 description",
+    title: "反應組合網站",
+    description: "項目1說明",
     image: "/images/projects/1.png",
-    tag: ["All", "Web"],
+    tag: ["全部", "網頁"],
     gitUrl: "/",
     previewUrl: "/",
   },
   {
     id: 2,
-    title: "Potography Portfolio Website",
-    description: "Project 2 description",
+    title: "攝影作品集網站",
+    description: "項目2說明",
     image: "/images/projects/2.png",
-    tag: ["All", "Web"],
+    tag: ["全部", "網頁"],
     gitUrl: "/",
     previewUrl: "/",
   },
   {
     id: 3,
-    title: "E-commerce Application",
-    description: "Project 3 description",
+    title: "電子商務應用",
+    description: "項目3說明",
     image: "/images/projects/3.png",
-    tag: ["All", "Web"],
+    tag: ["全部", "網頁"],
     gitUrl: "/",
     previewUrl: "/",
   },
   {
     id: 4,
-    title: "Food Ordering Application",
-    description: "Project 4 description",
+    title: "食品訂購應用程式",
+    description: "項目4說明",
     image: "/images/projects/4.png",
-    tag: ["All", "Mobile"],
+    tag: ["全部", "手機"],
     gitUrl: "/",
     previewUrl: "/",
   },
   {
     id: 5,
-    title: "React Firebase Template",
-    description: "Authentication and CRUD operations",
+    title: "反應 Firebase 模板",
+    description: "項目5說明",
     image: "/images/projects/5.png",
-    tag: ["All", "Web"],
+    tag: ["全部", "網頁"],
     gitUrl: "/",
     previewUrl: "/",
   },
   {
     id: 6,
-    title: "Full-stack Roadmap",
-    description: "Project 5 description",
+    title: "全端路線圖",
+    description: "項目6說明",
     image: "/images/projects/6.png",
-    tag: ["All", "Web"],
+    tag: ["全部", "網頁"],
     gitUrl: "/",
     previewUrl: "/",
   },
@@ -82,23 +82,23 @@ const ProjectsSection = () => {
   return (
     <section id="projects">
       <h2 className="text-center text-4xl font-bold text-white mt-4 mb-8 md:mb-12">
-        My Projects
+        我的專案
       </h2>
       <div className="text-white flex flex-row justify-center items-center gap-2 py-6">
         <ProjectTag
           onClick={handleTagChange}
-          name="All"
-          isSelected={tag === "All"}
+          name="全部"
+          isSelected={tag === "全部"}
         />
         <ProjectTag
           onClick={handleTagChange}
-          name="Web"
-          isSelected={tag === "Web"}
+          name="網頁"
+          isSelected={tag === "網頁"}
         />
         <ProjectTag
           onClick={handleTagChange}
-          name="Mobile"
-          isSelected={tag === "Mobile"}
+          name="手機"
+          isSelected={tag === "手機"}
         />
       </div>
       <ul ref={ref} className="grid md:grid-cols-3 gap-8 md:gap-12">
