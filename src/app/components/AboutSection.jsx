@@ -57,12 +57,14 @@ const AboutSection = () => {
         <div className="mt-4 md:mt-0 text-left flex flex-col h-full">
           <h2 className="text-4xl font-bold text-white mb-4">關於我</h2>
           <p className="text-base lg:text-lg">
-            我是一名全端 Web 開發人員，熱衷於創造
-            互動式和響應式 Web 應用程式。 我有經驗
-            使用 JavaScript、React、Redux、Node.js、Express、PostgreSQL、
-            Sequelize、HTML、CSS 和 Git。 我學得很快，而且總是
-            希望擴展我的知識和技能。 我是一個團隊合作者並且
-            我很高興能與其他人一起創建令人驚嘆的應用程式。
+            從一接觸到程式開始，就十分喜愛這種自動化，虛實整合的魅力。相較於其他
+            傳統領域，資訊科學是一門入門門檻較低的領域，也是最有發展潛力的領域。
+            從國小我就開始自學，漸漸也確定了自己對這個領域的喜愛。
+          </p>
+          <p className="text-base lg:text-lg">
+            相較於演算法等，我更加喜歡做前端、服務的類型。目前所有製作的內容都有發佈，像是
+            discord的機器人、手機APP等。也期許在未來大學資工系的學習中，能夠更充實自己的
+            程式設計基礎，並回頭來優化這些服務。
           </p>
           <div className="flex flex-row justify-start mt-8">
             <TabButton

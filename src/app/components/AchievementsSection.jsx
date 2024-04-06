@@ -11,22 +11,29 @@ const AnimatedNumbers = dynamic(
 
 const achievementsList = [
   {
-    metric: "專案",
+    metric: "競賽獲獎",
+    value: "10",
+    postfix: "+",
+  },
+  {
+    postfix: "級 APCS",
+    metric: "檢定成績",
+    value: "4",
+  },
+  {
+    metric: "服務使用者",
     value: "100",
     postfix: "+",
   },
   {
-    prefix: "~",
-    metric: "使用者",
-    value: "100,000",
+    metric: "專案數量",
+    value: "10",
+    postfix: "+",
   },
   {
-    metric: "獎項",
-    value: "7",
-  },
-  {
-    metric: "年份",
-    value: "5",
+    metric: "程式貓追蹤數",
+    value: "50",
+    postfix: "+",
   },
 ];
 

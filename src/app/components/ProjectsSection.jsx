@@ -7,8 +7,8 @@ import { motion, useInView } from "framer-motion";
 const projectsData = [
   {
     id: 1,
-    title: "反應組合網站",
-    description: "項目1說明",
+    title: "Discord機器人 - 即時虛擬貓咪互動",
+    description: "未添加說明",
     image: "/images/projects/1.png",
     tag: ["全部", "網頁"],
     gitUrl: "/",
@@ -16,8 +16,8 @@ const projectsData = [
   },
   {
     id: 2,
-    title: "攝影作品集網站",
-    description: "項目2說明",
+    title: "北科大PBL小車重製",
+    description: "未添加說明",
     image: "/images/projects/2.png",
     tag: ["全部", "網頁"],
     gitUrl: "/",
@@ -25,8 +25,8 @@ const projectsData = [
   },
   {
     id: 3,
-    title: "電子商務應用",
-    description: "項目3說明",
+    title: "生活科技專題 - 擊劍比賽系統",
+    description: "未添加說明",
     image: "/images/projects/3.png",
     tag: ["全部", "網頁"],
     gitUrl: "/",
@@ -34,8 +34,8 @@ const projectsData = [
   },
   {
     id: 4,
-    title: "食品訂購應用程式",
-    description: "項目4說明",
+    title: "科展 - 基於AI影像分析的貓咪情緒辨識",
+    description: "未添加說明",
     image: "/images/projects/4.png",
     tag: ["全部", "手機"],
     gitUrl: "/",
@@ -43,8 +43,8 @@ const projectsData = [
   },
   {
     id: 5,
-    title: "反應 Firebase 模板",
-    description: "項目5說明",
+    title: "個人網站 - 使用Next.js搭建的個人網站",
+    description: "未添加說明",
     image: "/images/projects/5.png",
     tag: ["全部", "網頁"],
     gitUrl: "/",
@@ -52,8 +52,8 @@ const projectsData = [
   },
   {
     id: 6,
-    title: "全端路線圖",
-    description: "項目6說明",
+    title: "(未開發)",
+    description: "未添加說明",
     image: "/images/projects/6.png",
     tag: ["全部", "網頁"],
     gitUrl: "/",
@@ -62,7 +62,7 @@ const projectsData = [
 ];
 
 const ProjectsSection = () => {
-  const [tag, setTag] = useState("All");
+  const [tag, setTag] = useState("全部");
   const ref = useRef(null);
   const isInView = useInView(ref, { once: true });
 
