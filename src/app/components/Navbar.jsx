@@ -11,6 +11,10 @@ const navLinks = [
     path: "#about",
   },
   {
+    title: "檢定成績",
+    path: "#tabinfo",
+  },
+  {
     title: "專案",
     path: "#projects",
   },

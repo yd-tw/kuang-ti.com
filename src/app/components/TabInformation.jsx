@@ -54,9 +54,9 @@ const AboutSection = () => {
   };
 
   return (
-    <section className="text-white" id="about">
-      <div className="h-80 flex flex-col mt-4 md:mt-0 text-left">
-        <div className="flex text-4xl flex-row  justify-center">
+    <section className="text-white" id="tabinfo">
+      <div className="mt-0 h-80 flex flex-col text-left">
+        <div className="flex text-2xl flex-row md:text-4xl justify-center">
           <TabButton
             selectTab={() => handleTabChange("score")}
             active={tab === "score"}
@@ -79,7 +79,7 @@ const AboutSection = () => {
             團隊參與{" "}
           </TabButton>
         </div>
-        <div className="mt-8 text-2xl text-center">
+        <div className="mt-8 text-1xl md:text-2xl text-center">
           {TAB_DATA.find((t) => t.id === tab).content}
         </div>
       </div>
