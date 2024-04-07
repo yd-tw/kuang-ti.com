@@ -1,7 +1,9 @@
 "use client";
 import React, { useState } from "react";
-import GithubIcon from "../../../public/github-icon.svg";
-import LinkedinIcon from "../../../public/linkedin-icon.svg";
+import GHIcon from "../../../public/gh.svg";
+import YTIcon from "../../../public/yt.svg";
+import FBIcon from "../../../public/fb.svg";
+import IGIcon from "../../../public/ig.svg";
 import Link from "next/link";
 import Image from "next/image";
 
@@ -51,16 +53,22 @@ const EmailSection = () => {
         </h5>
         <p className="text-[#ADB7BE] mb-4 max-w-md">
           {" "}
-          我目前正在尋找新的機會，我的收件匣總是
-          打開。 無論您有疑問還是只是想打個招呼，我都會
-          盡力回覆你！
+          很高興你能看到這裡，如果你還有想了解的地方或者想跟我聊
+          天，都歡迎聯繫我。下面是我的社群網站連結，或者你可以直
+          皆使用右邊的郵件功能發送給我。
         </p>
         <div className="socials flex flex-row gap-2">
-          <Link href="github.com">
-            <Image src={GithubIcon} alt="Github Icon" />
+          <Link href="https://github.com/yd-tw">
+            <Image src={GHIcon} alt="GH Icon" />
           </Link>
-          <Link href="linkedin.com">
-            <Image src={LinkedinIcon} alt="Linkedin Icon" />
+          <Link href="https://www.youtube.com/@codecat.">
+            <Image src={YTIcon} alt="YT Icon" />
+          </Link>
+          <Link href="https://www.facebook.com/profile.php?id=100022136377891">
+            <Image src={FBIcon} alt="FB Icon" />
+          </Link>
+          <Link href="https://www.instagram.com/guangdiy/">
+            <Image src={IGIcon} alt="IG Icon" />
           </Link>
         </div>
       </div>
@@ -76,7 +84,7 @@ const EmailSection = () => {
                 htmlFor="email"
                 className="text-white block mb-2 text-sm font-medium"
               >
-                你的郵件
+                你的郵件 (功能測試中，郵件高機率傳送失敗。建議使用左方社群軟體傳送。)
               </label>
               <input
                 name="email"
