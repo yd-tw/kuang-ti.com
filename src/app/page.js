@@ -5,7 +5,7 @@ import ProjectsSection from "./components/ProjectsSection";
 import EmailSection from "./components/EmailSection";
 import Footer from "./components/Footer";
 import AchievementsSection from "./components/AchievementsSection";
-import Test from "./components/Test"
+import TabInformation from "./components/TabInformation"
 
 export default function Home() {
   return (
@@ -15,6 +15,7 @@ export default function Home() {
         <HeroSection />
         <AchievementsSection />
         <AboutSection />
+        <TabInformation />
         <ProjectsSection />
         <EmailSection />
       </div>
