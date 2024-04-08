@@ -1,9 +1,9 @@
 "use client";
 import React, { useState } from "react";
-import GHIcon from "../../../public/gh.svg";
-import YTIcon from "../../../public/yt.svg";
-import FBIcon from "../../../public/fb.svg";
-import IGIcon from "../../../public/ig.svg";
+import GHIcon from "../../public/gh.svg";
+import YTIcon from "../../public/yt.svg";
+import FBIcon from "../../public/fb.svg";
+import IGIcon from "../../public/ig.svg";
 import Link from "next/link";
 import Image from "next/image";
 
