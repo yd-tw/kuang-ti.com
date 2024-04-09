@@ -16,13 +16,13 @@ const achievementsList = [
     postfix: "+",
   },
   {
-    postfix: "級 APCS",
+    prefix: "APCS :",
     metric: "檢定成績",
     value: "4",
   },
   {
     metric: "服務使用者",
-    value: "100",
+    value: "10",
     postfix: "+",
   },
   {
@@ -32,7 +32,7 @@ const achievementsList = [
   },
   {
     metric: "程式貓追蹤數",
-    value: "50",
+    value: "40",
     postfix: "+",
   },
 ];

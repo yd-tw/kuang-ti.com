@@ -54,8 +54,8 @@ const EmailSection = () => {
         <p className="text-[#ADB7BE] mb-4 max-w-md">
           {" "}
           很高興你能看到這裡，如果你還有想了解的地方或者想跟我聊
-          天，都歡迎聯繫我。下面是我的社群網站連結，或者你可以直
-          皆使用右邊的郵件功能發送給我。
+          天，都歡迎聯繫我。點按我的社群網站連結，或者你可以直
+          接使用郵件功能(目前測試中不穩定)發送給我。
         </p>
         <div className="socials flex flex-row gap-2">
           <Link href="https://github.com/yd-tw">
@@ -84,7 +84,7 @@ const EmailSection = () => {
                 htmlFor="email"
                 className="text-white block mb-2 text-sm font-medium"
               >
-                你的郵件 (功能測試中，郵件高機率傳送失敗。建議使用左方社群軟體傳送。)
+                你的郵件 (功能測試中，郵件高機率傳送失敗。建議使用社群軟體傳送。)
               </label>
               <input
                 name="email"

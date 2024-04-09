@@ -24,11 +24,11 @@ const HeroSection = () => {
               sequence={[
                 "楊光地",
                 1000,
-                "中和機器人社 - 活動",
+                "機器人社-活動長",
                 1000,
-                "程式貓社群創始人",
+                "程式貓-社群創始人",
                 1000,
-                "FRC程式組",
+                "FRC程式組-組長",
                 1000,
               ]}
               wrapper="span"
@@ -37,7 +37,7 @@ const HeroSection = () => {
             />
           </h1>
           <p className="text-[#ADB7BE] text-base sm:text-lg mb-6 lg:text-xl">
-            這裡應該要放自我介紹，但我不知道寫什麼
+            這裡應該要放自我介紹，但我不知道寫什麼QAQ
           </p>
           <div>
             <Link
@@ -51,7 +51,7 @@ const HeroSection = () => {
               className="px-1 inline-block py-1 w-full sm:w-fit rounded-full bg-gradient-to-br from-primary-500 to-secondary-500 hover:bg-slate-800 text-white mt-3"
             >
               <span className="block bg-[#121212] hover:bg-slate-800 rounded-full px-5 py-2">
-                沒用的按鈕
+                目前沒用的按鈕
               </span>
             </Link>
           </div>
