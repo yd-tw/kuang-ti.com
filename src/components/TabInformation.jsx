@@ -56,7 +56,7 @@ const AboutSection = () => {
   return (
     <section className="text-white" id="tabinfo">
       <div className="mt-0 h-80 flex flex-col text-left">
-        <div className="flex text-2xl flex-row md:text-4xl justify-center">
+        <div className="flex flex-row text-xl md:text-4xl justify-center">
           <TabButton
             selectTab={() => handleTabChange("score")}
             active={tab === "score"}
