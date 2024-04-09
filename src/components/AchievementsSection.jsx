@@ -16,7 +16,7 @@ const achievementsList = [
     postfix: "+",
   },
   {
-    prefix: "APCS :",
+    prefix: "APCS:",
     metric: "檢定成績",
     value: "4",
   },
