@@ -11,8 +11,8 @@ const projectsData = [
     description: "一個基於discord.py製作的機器貓咪，串接Gemini API提供24h服務。",
     image: "/images/projects/1.png",
     tag: ["全部", "服務"],
-    gitUrl: "/",
-    previewUrl: "/",
+    gitUrl: "https://github.com/yd-tw/Discord-TemplateBot",
+    previewUrl: "https://github.com/yd-tw/Discord-TemplateBot",
   },
   {
     id: 2,
@@ -20,8 +20,8 @@ const projectsData = [
     description: "改良我在北科大PBL時製作的車子，使其視覺辨識系統更加完善。",
     image: "/images/projects/2.png",
     tag: ["全部", "比賽"],
-    gitUrl: "/",
-    previewUrl: "/",
+    gitUrl: "https://github.com/yd-tw/Arduino-Car",
+    previewUrl: "https://github.com/yd-tw/Arduino-Car",
   },
   {
     id: 3,
@@ -29,8 +29,8 @@ const projectsData = [
     description: "一個Arduino的系統，包含無線收發、液晶顯示器、顏色感測器等多個部分。",
     image: "/images/projects/3.png",
     tag: ["全部", "專題"],
-    gitUrl: "/",
-    previewUrl: "/",
+    gitUrl: "https://github.com/yd-tw/Arduino-Fencing",
+    previewUrl: "https://github.com/yd-tw/Arduino-Fencing",
   },
   {
     id: 4,
@@ -38,8 +38,8 @@ const projectsData = [
     description: "分析提示工程對於影像辨識模型的差異，包含模態、語言、關鍵詞等提示慈差異對照。",
     image: "/images/projects/4.png",
     tag: ["全部", "比賽"],
-    gitUrl: "/",
-    previewUrl: "/",
+    gitUrl: "/waitcreate",
+    previewUrl: "/waitcreate",
   },
   {
     id: 5,
@@ -47,8 +47,8 @@ const projectsData = [
     description: "基於React建立與部屬響應式網站，構建屬於自己的個人網頁，成果就是目前的這個網頁。",
     image: "/images/projects/5.png",
     tag: ["全部", "服務"],
-    gitUrl: "/",
-    previewUrl: "/",
+    gitUrl: "https://github.com/yd-tw/KuangTi-website",
+    previewUrl: "https://github.com/yd-tw/KuangTi-website",
   },
   {
     id: 6,
@@ -56,8 +56,8 @@ const projectsData = [
     description: "敬請期待...。專案預計於6月釋出。",
     image: "/images/projects/6.png",
     tag: ["全部", "服務"],
-    gitUrl: "/",
-    previewUrl: "/",
+    gitUrl: "/waitcreate",
+    previewUrl: "/waitcreate",
   },
 ];
 
