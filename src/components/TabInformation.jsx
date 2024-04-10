@@ -33,7 +33,7 @@ const TAB_DATA = [
     id: "teams",
     content: (
       <ul className="pl-2">
-        <li>中和高中機器人校隊 FRC8569 - 程式組組長</li>
+        <li>中和高中FRC機器人校隊 - 程式組組長</li>
         <li>中和高中機器人社 - 活動</li>
         <li>中和高中資訊研究社 - 社員</li>
         <li>程式貓社群 - 計畫發起人</li>
@@ -56,7 +56,7 @@ const AboutSection = () => {
   return (
     <section className="text-white" id="tabinfo">
       <div className="mt-0 h-80 flex flex-col text-left">
-        <div className="flex flex-row text-xl md:text-4xl justify-center">
+        <div className="flex flex-row text-base md:text-4xl justify-center">
           <TabButton
             selectTab={() => handleTabChange("score")}
             active={tab === "score"}
@@ -79,7 +79,7 @@ const AboutSection = () => {
             團隊參與{" "}
           </TabButton>
         </div>
-        <div className="mt-8 text-1xl md:text-2xl text-center">
+        <div className="mt-8 text-xl md:text-2xl text-center">
           {TAB_DATA.find((t) => t.id === tab).content}
         </div>
       </div>
