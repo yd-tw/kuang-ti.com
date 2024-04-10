@@ -37,7 +37,7 @@ const HeroSection = () => {
             />
           </h1>
           <p className="text-[#ADB7BE] text-base sm:text-lg mb-6 lg:text-xl">
-            這裡應該要放自我介紹，但我不知道寫什麼QAQ
+            一位立志成為軟體工程師的高中生自我介紹
           </p>
           <div>
             <Link
@@ -47,11 +47,11 @@ const HeroSection = () => {
               聯絡我
             </Link>
             <Link
-              href="/"
+              href="https://github.com/yd-tw"
               className="px-1 inline-block py-1 w-full sm:w-fit rounded-full bg-gradient-to-br from-primary-500 to-secondary-500 hover:bg-slate-800 text-white mt-3"
             >
               <span className="block bg-[#121212] hover:bg-slate-800 rounded-full px-5 py-2">
-                目前沒用的按鈕
+                前往我的Github主頁
               </span>
             </Link>
           </div>
