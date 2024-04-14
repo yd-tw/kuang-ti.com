@@ -16,7 +16,7 @@ const projectsData = [
   },
   {
     id: 2,
-    title: "北科大PBL小車重製",
+    title: "北科大PBL - 比賽小車重製",
     description: "改良我在北科大PBL時製作的車子，使其視覺辨識系統更加完善。",
     image: "/images/projects/2.png",
     tag: ["全部", "比賽"],
@@ -35,7 +35,7 @@ const projectsData = [
   {
     id: 4,
     title: "科展 - 基於AI影像分析的貓咪情緒辨識",
-    description: "分析提示工程對於影像辨識模型的差異，包含模態、語言、關鍵詞等提示慈差異對照。",
+    description: "分析提示工程對於影像辨識模型的差異，包含模態、語言、關鍵詞等提示詞差異對照。",
     image: "/images/projects/4.png",
     tag: ["全部", "比賽"],
     gitUrl: "/waitcreate",

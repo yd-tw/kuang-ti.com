@@ -34,7 +34,7 @@ const TAB_DATA = [
     content: (
       <ul className="pl-2">
         <li>中和高中FRC機器人校隊 - 程式組組長</li>
-        <li>中和高中機器人社 - 活動</li>
+        <li>中和高中機器人社 - 活動長</li>
         <li>中和高中資訊研究社 - 社員</li>
         <li>程式貓社群 - 計畫發起人</li>
         <li>APCS新創教育團隊 - 測試組組長</li>
