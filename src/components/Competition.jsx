@@ -2,7 +2,7 @@ import React from "react";
 import ContestCard from "./ContestCard";
 
 const contestData = [
-    { name: "w96j0" },
+    { area: "全國", name: "w96j0", rank: "第三", about: "", official: "" },
     { name: "123" },
     { name: "123" }
 ];
@@ -10,9 +10,9 @@ const contestData = [
 const Competition = () => {
     return (
         <div>
-            {contestData.map((contestData, index) => (
+            {contestData.map((data, index) => (
                 <li key={index}>
-                    <ContestCard title={contestData.name} />
+                    <ContestCard area={data.area} title={data.name} rank={data.rank} />
                 </li>
             ))}
         </div>
