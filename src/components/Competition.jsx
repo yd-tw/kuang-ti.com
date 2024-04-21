@@ -17,13 +17,18 @@ const contestData = [
 
 const Competition = () => {
     return (
-        <div>
-            {contestData.map((data, index) => (
-                <li key={index}>
-                    <ContestCard area={data.area} title={data.name} rank={data.rank} />
-                </li>
-            ))}
-        </div>
+        <section id="contest">
+            <h2 className="text-center text-4xl font-bold text-white mt-4 mb-8 md:mb-12">
+                競賽獲獎
+            </h2>
+            <div className="mb-8">
+                {contestData.map((data, index) => (
+                    <li key={index}>
+                        <ContestCard area={data.area} title={data.name} rank={data.rank} />
+                    </li>
+                ))}
+            </div>
+        </section>
     );
 };
 
