@@ -1,10 +1,9 @@
 import React from "react";
 
-const ContestCard = ({ area, title, rank }) => {
+const ContestCard = ({ title, rank }) => {
     return (
         <div className="lg:flex items-center bg-[#221f1f] hover:bg-[#1f2937] p-2 rounded-lg">
             <div className="flex">
-                <p className="md:text-2xl text-white mr-8">{area}</p>
                 <p className="md:text-2xl text-white mr-8">{title}</p>
             </div>
             <div className="flex flex-grow">
