@@ -8,7 +8,7 @@ const ContestCard = ({ title, rank }) => {
             </div>
             <div className="flex flex-grow">
                 <p className="md:text-2xl text-white mr-8">{rank}</p>
-                <div className="ml-auto text-white font-bold">
+                <div className="hidden sm:block ml-auto text-white font-bold">
                     <button className="bg-orange-900 hover:bg-orange-600 py-1 px-4 rounded mr-4">比賽經歷</button>
                     <button className="bg-orange-900 hover:bg-orange-600 py-1 px-4 rounded mr-4">官方連結</button>
                 </div>
