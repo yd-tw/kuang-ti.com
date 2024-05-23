@@ -9,7 +9,7 @@ const TAB_DATA = [
     content: (
       <ul className="pl-2">
         <li>APCS 大學程式設計先修檢測 - 四級</li>
-        <li>CPE 大學程式能力檢定 - (待補)</li>
+        <li>CPE 大學程式能力檢定 - 兩題(全國467名)</li>
         <li>111學年度 中和高中學習成就測驗 地理科 - 第一名</li>
       </ul>
     ),
@@ -36,7 +36,7 @@ const TAB_DATA = [
         <li>中和高中FRC機器人校隊 - 程式組組長</li>
         <li>中和高中機器人社 - 活動長</li>
         <li>中和高中資訊研究社 - 社員</li>
-        <li>程式貓社群 - 計畫發起人</li>
+        <li>CodeCat程式貓社群 - 計畫發起人</li>
         <li>APCS新創教育團隊 - 測試組組長</li>
       </ul>
     ),

@@ -22,17 +22,17 @@ const achievementsList = [
   },
   {
     metric: "服務使用者",
-    value: "20",
+    value: "50",
     postfix: "+",
   },
   {
     metric: "專案數量",
-    value: "10",
+    value: "20",
     postfix: "+",
   },
   {
     metric: "社群追蹤數",
-    value: "50",
+    value: "100",
     postfix: "+",
   },
 ];
