@@ -6,7 +6,7 @@ const inter = Inter({ subsets: ['latin'] })
 
 export const metadata = {
   title: '楊光地',
-  description: '在這裡能找到關於楊光地的一切',
+  description: '一個熱愛科技的高中生自介',
 }
 
 export default function RootLayout({ children }) {
