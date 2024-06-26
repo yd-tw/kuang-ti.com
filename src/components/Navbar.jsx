@@ -23,8 +23,8 @@ const navLinks = [
     path: "#projects",
   },
   {
-    title: "聯繫方式",
-    path: "#contact",
+    title: "社群連結",
+    path: "#link",
   },
 ];
 
