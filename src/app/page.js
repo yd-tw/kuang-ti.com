@@ -17,7 +17,7 @@ export default function Home() {
         <AchievementsSection />
         <AboutSection />
         <TabInformation />
-        <Competition/>
+        <Competition />
         <ProjectsSection />
         <SocialLink />
       </div>

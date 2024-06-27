@@ -1,13 +1,13 @@
-import './globals.css'
-import { Inter } from 'next/font/google'
-import { GoogleAnalytics } from '@next/third-parties/google'
+import "./globals.css";
+import { Inter } from "next/font/google";
+import { GoogleAnalytics } from "@next/third-parties/google";
 
-const inter = Inter({ subsets: ['latin'] })
+const inter = Inter({ subsets: ["latin"] });
 
 export const metadata = {
-  title: '楊光地',
-  description: '一個熱愛科技的高中生自介',
-}
+  title: "楊光地",
+  description: "一個熱愛科技的高中生自介",
+};
 
 export default function RootLayout({ children }) {
   return (
@@ -21,5 +21,5 @@ export default function RootLayout({ children }) {
         {children}
       </body>
     </html>
-  )
+  );
 }

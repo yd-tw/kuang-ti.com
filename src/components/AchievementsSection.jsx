@@ -6,7 +6,7 @@ const AnimatedNumbers = dynamic(
   () => {
     return import("react-animated-numbers");
   },
-  { ssr: false }
+  { ssr: false },
 );
 
 const achievementsList = [
