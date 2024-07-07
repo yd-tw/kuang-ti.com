@@ -76,9 +76,9 @@ const Competition = () => {
       <h2 className="text-center text-4xl font-bold text-white my-4">
         競賽獲獎
       </h2>
-      <div className="mb-8">
+      <div className="px-4 pb-4 bg-[#221f1f] ">
         {contestData.map((data, index) => (
-          <li key={index}>
+          <li className="list-none border-b" key={index}>
             <ContestCard area={data.area} title={data.name} rank={data.rank} />
           </li>
         ))}

@@ -2,7 +2,7 @@ import React from "react";
 
 const ContestCard = ({ title, rank }) => {
   return (
-    <div className="lg:flex items-center bg-[#221f1f] hover:bg-[#1f2937] p-2 rounded-lg">
+    <div className="lg:flex items-center bg-[#221f1f] hover:bg-[#1f2937] p-4 rounded-lg">
       <div className="flex">
         <p className="md:text-2xl text-white mr-8">{title}</p>
       </div>
