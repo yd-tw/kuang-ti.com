@@ -1,6 +1,5 @@
 "use client";
 import React from "react";
-import Link from "next/link";
 import { Icon } from "@iconify/react";
 
 const socialLinks = [
@@ -37,7 +36,7 @@ const SocialLink = () => {
       id="link"
       className="relative my-12 py-24 flex flex-col items-center"
     >
-      <h2 className="text-center text-4xl font-bold text-white mt-4 mb-8 md:mb-12 drop-shadow-lg">
+      <h2 className="text-center text-4xl font-bold text-white my-4">
         社群連結
       </h2>
       <div className="socials z-10 flex flex-col gap-6">

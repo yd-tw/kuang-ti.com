@@ -72,8 +72,8 @@ const contestData = [
 
 const Competition = () => {
   return (
-    <section id="contest">
-      <h2 className="text-center text-4xl font-bold text-white mt-4 mb-8 md:mb-12">
+    <section className="pt-24" id="contest">
+      <h2 className="text-center text-4xl font-bold text-white my-4">
         競賽獲獎
       </h2>
       <div className="mb-8">

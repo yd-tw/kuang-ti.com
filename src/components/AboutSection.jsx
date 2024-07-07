@@ -2,57 +2,7 @@
 import React, { useTransition, useState } from "react";
 import Image from "next/image";
 
-const TAB_DATA = [
-  {
-    title: "Score",
-    id: "score",
-    content: (
-      <ul className="list-disc pl-2">
-        <li>APCS 大學程式設計先修檢測 - 四級</li>
-        <li>CPE 大學程式能力檢定 - (待補)</li>
-        <li>中和高中學習成就測驗 地理科 - 第一名</li>
-      </ul>
-    ),
-  },
-  {
-    title: "skills",
-    id: "skills",
-    content: (
-      <ul className="list-disc pl-2">
-        <li>Arduino程式設計</li>
-        <li>FRC程式設計</li>
-        <li>PID控制器設計</li>
-        <li>AI影像分析</li>
-        <li>競賽程式</li>
-        <li>演算法分析</li>
-      </ul>
-    ),
-  },
-  {
-    title: "teams",
-    id: "teams",
-    content: (
-      <ul className="list-disc pl-2">
-        <li>中和高中機器人校隊 FRC8569 - 程式組組長</li>
-        <li>中和高中機器人社 - 活動</li>
-        <li>中和高中資訊研究社 - 社員</li>
-        <li>程式貓社群 - 計畫發起人</li>
-        <li>APCS新創教育團隊 - 測試組組長</li>
-      </ul>
-    ),
-  },
-];
-
 const AboutSection = () => {
-  const [tab, setTab] = useState("score");
-  const [isPending, startTransition] = useTransition();
-
-  const handleTabChange = (id) => {
-    startTransition(() => {
-      setTab(id);
-    });
-  };
-
   return (
     <section className="text-white" id="about">
       <div className="md:grid md:grid-cols-2 gap-8 items-center py-8 px-4 xl:gap-16 sm:py-16 xl:px-16">
