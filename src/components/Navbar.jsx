@@ -8,7 +8,7 @@ import MenuOverlay from "./MenuOverlay";
 const navLinks = [
   {
     title: "個人介紹",
-    path: "#about",
+    path: "/about",
   },
   {
     title: "檢定成績",
@@ -16,15 +16,15 @@ const navLinks = [
   },
   {
     title: "競賽獲獎",
-    path: "#contest",
+    path: "/contest",
   },
   {
     title: "作品成果",
-    path: "#projects",
+    path: "/projects",
   },
   {
     title: "社群連結",
-    path: "#link",
+    path: "/link",
   },
 ];
 
