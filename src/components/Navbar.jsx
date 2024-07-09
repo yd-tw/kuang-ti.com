@@ -11,10 +11,6 @@ const navLinks = [
     path: "/about",
   },
   {
-    title: "檢定成績",
-    path: "#tabinfo",
-  },
-  {
     title: "競賽獲獎",
     path: "/contest",
   },
