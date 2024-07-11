@@ -7,9 +7,9 @@ import { motion, useInView } from "framer-motion";
 const projectsData = [
   {
     id: 1,
-    title: "Discord機器人 - 即時虛擬貓咪互動",
+    title: "Discord bot - 一隻商用專業模板機器人",
     description:
-      "一個基於discord.py製作的機器貓咪，串接Gemini API提供24h服務。",
+      "一個基於 discord.py 製作的機器人，使用Cogs架構支援即時熱修復，無須停機重啟。",
     image: "/images/projects/1.png",
     tag: ["全部", "服務"],
     gitUrl: "https://github.com/yd-tw/Discord-TemplateBot",
@@ -18,7 +18,7 @@ const projectsData = [
   {
     id: 2,
     title: "北科大PBL - 比賽小車重製",
-    description: "改良我在北科大PBL時製作的車子，使其視覺辨識系統更加完善。",
+    description: "改良我在北科大 PBL 時製作的車子，使其 AI 視覺辨識系統更加穩定與準確。",
     image: "/images/projects/2.png",
     tag: ["全部", "比賽"],
     gitUrl: "https://github.com/yd-tw/Arduino-Car",
@@ -28,7 +28,7 @@ const projectsData = [
     id: 3,
     title: "生活科技專題 - 擊劍比賽系統",
     description:
-      "一個Arduino的系統，包含無線收發、液晶顯示器、顏色感測器等多個部分。",
+      "使用 Arduino 製作的比賽系統，使用包含無線通訊、液晶顯示器、顏色感測器等多種感測器的技術。",
     image: "/images/projects/3.png",
     tag: ["全部", "專題"],
     gitUrl: "https://github.com/yd-tw/Arduino-Fencing",
@@ -41,27 +41,27 @@ const projectsData = [
       "分析提示工程對於影像辨識模型的差異，包含模態、語言、關鍵詞等提示詞差異對照。",
     image: "/images/projects/4.png",
     tag: ["全部", "比賽"],
-    gitUrl: "/waitcreate",
-    previewUrl: "/waitcreate",
+    gitUrl: "https://github.com/yd-tw/ScienceFair-CatEmotionDetection",
+    previewUrl: "https://github.com/yd-tw/ScienceFair-CatEmotionDetection",
   },
   {
     id: 5,
-    title: "個人網站 - 使用Next.js搭建的個人網站",
+    title: "個人網站 - 使用Next.js搭建響應式網站",
     description:
-      "基於React建立與部屬響應式網站，構建屬於自己的個人網頁，成果就是目前的這個網頁。",
+      "使用 Next.js 搭配 Tailwind CSS 建立業界等級的響應式網站，現在這個網站即是成果。",
     image: "/images/projects/5.png",
     tag: ["全部", "服務"],
-    gitUrl: "https://github.com/yd-tw/KuangTi-website",
-    previewUrl: "https://github.com/yd-tw/KuangTi-website",
+    gitUrl: "https://github.com/yd-tw/kuang-ti.com",
+    previewUrl: "https://github.com/yd-tw/kuang-ti.com",
   },
   {
     id: 6,
-    title: "(手機軟體開發中...)",
-    description: "敬請期待...。專案預計於6月釋出。",
+    title: "程式貓官網 - 我為社群建立的文件網站",
+    description: "基於 Docusaurus 建立支援 Markdown 的文本網站，並在上面發怖科技新聞。",
     image: "/images/projects/6.png",
     tag: ["全部", "服務"],
-    gitUrl: "/waitcreate",
-    previewUrl: "/waitcreate",
+    gitUrl: "https://www.codecat.tw",
+    previewUrl: "https://www.codecat.tw",
   },
 ];
 
