@@ -10,19 +10,19 @@
   },
   "dependencies": {
     "@heroicons/react": "^2.1.5",
-    "@iconify/react": "^5.0.1",
-    "@next/third-parties": "^14.2.5",
+    "@iconify/react": "^5.0.2",
+    "@next/third-parties": "^14.2.12",
     "autoprefixer": "10.4.15",
     "eslint": "8.47.0",
     "eslint-config-next": "13.4.15",
     "framer-motion": "^10.18.0",
-    "next": "^14.2.5",
-    "postcss": "^8.4.39",
+    "next": "^14.2.12",
+    "postcss": "^8.4.47",
     "react": "18.2.0",
     "react-animated-numbers": "^0.16.0",
     "react-dom": "18.2.0",
     "react-type-animation": "^3.2.0",
-    "tailwindcss": "^3.4.4"
+    "tailwindcss": "^3.4.12"
   },
   "devDependencies": {
     "prettier": "^3.3.3",
