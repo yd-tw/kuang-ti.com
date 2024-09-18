@@ -1,14 +1,13 @@
 "use client";
-import React, { useTransition, useState } from "react";
 import Image from "next/image";
 
-const AboutSection = () => {
+export default function AboutSection() {
   return (
     <section className="text-white" id="about">
-      <div className="md:grid md:grid-cols-2 gap-8 items-center py-8 px-4 xl:gap-16 sm:py-16 xl:px-16">
+      <div className="items-center gap-8 px-4 py-8 sm:py-16 md:grid md:grid-cols-2 xl:gap-16 xl:px-16">
         <Image src="/images/yang-kuang-ti.png" width={500} height={500} />
-        <div className="text-2xl mt-4 md:mt-0 text-left flex flex-col justify-centerh-full">
-          <h2 className="text-4xl font-bold text-white mb-4">關於我</h2>
+        <div className="justify-centerh-full mt-4 flex flex-col text-left text-2xl md:mt-0">
+          <h2 className="mb-4 text-4xl font-bold text-white">關於我</h2>
           <p className="text-base lg:text-lg">
             從一接觸到程式開始，就十分喜愛這種自動化，虛實整合的魅力。相較於其他
             傳統領域，資訊科學是一門入門門檻較低的領域，也是最有發展潛力的領域。
@@ -24,6 +23,4 @@ const AboutSection = () => {
       </div>
     </section>
   );
-};
-
-export default AboutSection;
+}

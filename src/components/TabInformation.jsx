@@ -43,7 +43,7 @@ const TAB_DATA = [
   },
 ];
 
-const AboutSection = () => {
+export default function AboutSection() {
   const [tab, setTab] = useState("score");
   const [isPending, startTransition] = useTransition();
 
@@ -54,9 +54,9 @@ const AboutSection = () => {
   };
 
   return (
-    <section className="text-white pt-24" id="tabinfo">
+    <section className="pt-24 text-white" id="tabinfo">
       <div className="flex flex-col text-left">
-        <div className="flex flex-row text-base md:text-4xl justify-center">
+        <div className="flex flex-row justify-center text-base md:text-4xl">
           <TabButton
             selectTab={() => handleTabChange("score")}
             active={tab === "score"}
@@ -79,12 +79,10 @@ const AboutSection = () => {
             團隊參與{" "}
           </TabButton>
         </div>
-        <div className="mt-8 text-xl md:text-2xl text-center">
+        <div className="mt-8 text-center text-xl md:text-2xl">
           {TAB_DATA.find((t) => t.id === tab).content}
         </div>
       </div>
     </section>
   );
-};
-
-export default AboutSection;
+}

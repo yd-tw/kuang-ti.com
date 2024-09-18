@@ -6,7 +6,7 @@ const variants = {
   active: { width: "calc(100% - 0.75rem)" },
 };
 
-const TabButton = ({ active, selectTab, children }) => {
+export default function TabButton({ active, selectTab, children }) {
   const buttonClasses = active ? "text-white" : "text-[#ADB7BE]";
 
   return (
@@ -17,10 +17,8 @@ const TabButton = ({ active, selectTab, children }) => {
       <motion.div
         animate={active ? "active" : "default"}
         variants={variants}
-        className="h-1 bg-primary-500 mt-2 mr-3"
+        className="mr-3 mt-2 h-1 bg-primary-500"
       ></motion.div>
     </button>
   );
-};
-
-export default TabButton;
+}

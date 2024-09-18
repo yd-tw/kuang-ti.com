@@ -18,7 +18,8 @@ const projectsData = [
   {
     id: 2,
     title: "北科大PBL - 比賽小車重製",
-    description: "改良我在北科大 PBL 時製作的車子，使其 AI 視覺辨識系統更加穩定與準確。",
+    description:
+      "改良我在北科大 PBL 時製作的車子，使其 AI 視覺辨識系統更加穩定與準確。",
     image: "/images/projects/2.png",
     tag: ["全部", "比賽"],
     gitUrl: "https://github.com/yd-tw/Arduino-Car",
@@ -57,7 +58,8 @@ const projectsData = [
   {
     id: 6,
     title: "程式貓官網 - 我為社群建立的文件網站",
-    description: "基於 Docusaurus 建立支援 Markdown 的文本網站，並在上面發怖科技新聞。",
+    description:
+      "基於 Docusaurus 建立支援 Markdown 的文本網站，並在上面發怖科技新聞。",
     image: "/images/projects/6.png",
     tag: ["全部", "服務"],
     gitUrl: "https://www.codecat.tw",
@@ -65,7 +67,7 @@ const projectsData = [
   },
 ];
 
-const ProjectsSection = () => {
+export default function ProjectsSection() {
   const [tag, setTag] = useState("全部");
   const ref = useRef(null);
   const isInView = useInView(ref, { once: true });
@@ -85,10 +87,10 @@ const ProjectsSection = () => {
 
   return (
     <section className="pt-24" id="projects">
-      <h2 className="text-center text-4xl font-bold text-white my-4">
+      <h2 className="my-4 text-center text-4xl font-bold text-white">
         作品成果
       </h2>
-      <div className="text-white flex flex-row justify-center items-center gap-2 py-6">
+      <div className="flex flex-row items-center justify-center gap-2 py-6 text-white">
         <ProjectTag
           onClick={handleTagChange}
           name="全部"
@@ -110,7 +112,7 @@ const ProjectsSection = () => {
           isSelected={tag === "服務"}
         />
       </div>
-      <ul ref={ref} className="grid md:grid-cols-3 gap-8 md:gap-12">
+      <ul ref={ref} className="grid gap-8 md:grid-cols-3 md:gap-12">
         {filteredProjects.map((project, index) => (
           <motion.li
             key={index}
@@ -132,6 +134,4 @@ const ProjectsSection = () => {
       </ul>
     </section>
   );
-};
-
-export default ProjectsSection;
+}

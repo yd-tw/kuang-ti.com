@@ -70,13 +70,13 @@ const contestData = [
   },
 ];
 
-const Competition = () => {
+export default function Competition() {
   return (
     <section className="pt-24" id="contest">
-      <h2 className="text-center text-4xl font-bold text-white my-4">
+      <h2 className="my-4 text-center text-4xl font-bold text-white">
         競賽獲獎
       </h2>
-      <div className="px-4 pb-4 bg-[#221f1f] ">
+      <div className="bg-[#221f1f] px-4 pb-4">
         {contestData.map((data, index) => (
           <li className="list-none border-b" key={index}>
             <ContestCard area={data.area} title={data.name} rank={data.rank} />
@@ -85,6 +85,4 @@ const Competition = () => {
       </div>
     </section>
   );
-};
-
-export default Competition;
+}
